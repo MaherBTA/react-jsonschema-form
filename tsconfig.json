@@ -26,6 +26,9 @@
       "path": "./packages/material-ui"
     },
     {
+      "path": "./packages/tailwind"
+    },
+    {
       "path": "./packages/mui"
     },
     {

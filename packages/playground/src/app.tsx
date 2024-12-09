@@ -6,6 +6,7 @@ import { Theme as SuiTheme } from '@rjsf/semantic-ui';
 import { Theme as AntdTheme } from '@rjsf/antd';
 import { Theme as Bootstrap4Theme } from '@rjsf/bootstrap-4';
 import { Theme as ChakraUITheme } from '@rjsf/chakra-ui';
+import { Theme as Tailwind } from '@rjsf/tailwind';
 import v8Validator, { customizeValidator } from '@rjsf/validator-ajv8';
 import v6Validator from '@rjsf/validator-ajv6';
 import localize_es from 'ajv-i18n/localize/es';
@@ -32,7 +33,7 @@ const validators: PlaygroundProps['validators'] = {
 
 const themes: PlaygroundProps['themes'] = {
   default: {
-    stylesheet: '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css',
+    stylesheet: 'https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css',
     theme: {},
     subthemes: {
       cerulean: {
@@ -122,6 +123,10 @@ const themes: PlaygroundProps['themes'] = {
   'semantic-ui': {
     stylesheet: '//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css',
     theme: SuiTheme,
+  },
+  'tailwind-ui': {
+    stylesheet: 'https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css',
+    theme: Tailwind,
   },
 };
 
