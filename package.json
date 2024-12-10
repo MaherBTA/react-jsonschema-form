@@ -1,7 +1,8 @@
 {
-  "name": "react-jsonschema-form",
+  "name": "foton-react2json",
   "private": false,
-  "description": "monorepo for react-jsonschema-form and its themes",
+  "description": "A fork from react-jsonschema-form to add support of Tailwind",
+  "version": "1.0.0",
   "engines": {
     "node": ">=14"
   },
@@ -81,5 +82,21 @@
     "packages/validator-ajv8",
     "packages/snapshot-tests"
   ],
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaherBTA/react-jsonschema-form.git"
+  },
+  "keywords": [
+    "React",
+    "Taiwind"
+  ],
+  "author": "Maher BEN TALEB ALI",
+  "bugs": {
+    "url": "https://github.com/MaherBTA/react-jsonschema-form/issues"
+  }
 }
